@@ -1,0 +1,231 @@
+@font-face {
+    font-family: "abster";
+    src:url(fonts/abster-webfont.woff) format('woff');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'lefe';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding: 0px;
+  }
+
+.movie_bg{
+  width: 100%;
+  height: 25vh; 
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/music_header2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.movie_bg > .header > h1{
+    font-size: 48px;
+    font-weight: 100;
+    display : flex;
+    justify-content : center;
+    height: 100;
+    color:#fff;
+}
+
+.movie_bg > .header{
+    line-height: 100px;
+}
+
+.header > .nav{
+ display: flex;
+ justify-content: center;
+ line-height: 100px;
+}
+.nav > li {
+  margin-left: 80px;
+}
+  
+.nav > li > a {
+  color: #fff;
+}
+
+.nav > li > a:hover{
+  color: rgb(59, 242, 181);
+}
+
+/*상단바-nav*/
+
+.main_text1{
+    width: 100%;
+    height:500px;
+    /*margin-top: -132px;*/
+
+}
+
+.main_text1 > h1{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.main_text1 > .contents1{
+    text-align: center;
+}
+
+.movie {
+    width: 1280px;
+    display: flex;
+    margin: 49px auto;
+    height: 300;
+}
+
+.movie > .contents2 > h2 {
+    text-align: left;
+}
+
+.movie > .contents2 {
+    padding-top: 30px;
+    padding: 27px;
+    text-align: left;
+}
+
+.movie > .contents2 > .kmovtext > p{
+    font-family: 'lefe';
+    font-weight: bold;
+}
+
+/*movie-----------*/
+
+.main_text2{
+  width: 100%;
+  height: 500px;
+  /*margin-top: -132px;*/
+
+}
+
+.main_text2 > h1{
+  padding-top: 200px;
+  text-align: center;
+}
+
+.main_text2 > .contents2_1{
+  text-align: center;
+}
+
+.drama {
+  width: 1280px;
+  display: flex;
+  margin: 49px auto;
+  height: 300;
+
+}
+
+.drama > .contents2_2 > h2 {
+  padding-top: 100px;
+  text-align: left;
+}
+
+.drama > .contents2_2 {
+    padding: 50px;
+    margin-top: 10px;
+    margin-left: 10vh;
+    /* margin-right: 30vh; */
+    text-align: left;
+}
+
+.drama > .contents2_2 > .dratext {
+    font-family: lefe;
+    font-weight: bold;
+}
+
+.drama > .drama_photo{
+  padding: 27px;
+}
+/*drama------------------------*/
+
+
+.main_text3{
+    width: 100%;
+    height: 500px;
+    margin-top: 300px;
+}
+  
+.main_text3 > h1{
+    padding-top: 200px;
+    text-align: center;
+}
+  
+.main_text3 > .contents3_1{
+    text-align: center;
+}
+  
+.muk {
+    width: 1280px;
+    display: flex;
+    margin: 49px auto;
+    height: 300;
+}
+  
+.muk > .contents3_2 > h2 {
+    text-align: left;
+}
+  
+.muk > .contents3_2 {
+    padding-top: 30px;
+    padding: 27px;
+    text-align: left;
+}
+  
+.muk > .muk_photo{
+    padding: 27px;
+}
+
+.muk > .contents3_2 > .muk_text{
+    font-family: 'lefe';
+    font-weight: bold;
+}
+
+
+.main_text0{
+  width: 100%;
+  height: 500px;
+  margin-top: 500px;
+  background: #f1f2f3;
+}
+.main_text0 > h1{
+  padding-top:90px;
+  text-align: center;
+}
+
+.icons{
+  display: flex;
+  width:1280px;
+  height: 302px;
+  /* background: orange; */
+  margin:auto;
+}
+.icons > li {
+  flex: 1;
+  background: white;
+  margin-top:49px;
+  height:302px;
+  text-align: center;
+}
+
+.icons > li > .icon_img{
+  margin-top:18px;
+}
+
+.icons > li:not(:last-child){
+  margin-right: 20px;
+}
+
+.icons .contents2 {
+  width:280px;
+  margin:auto;
+  letter-spacing: -1px;
+}
